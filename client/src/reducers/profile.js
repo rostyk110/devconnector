@@ -15,6 +15,9 @@ const initialState = {
 	error: {}
 };
 
+// some changes
+console.log('some changes')
+
 export default function(state = initialState, action) {
 	const { type, payload } = action;
 
